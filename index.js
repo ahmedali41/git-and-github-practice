@@ -12,3 +12,11 @@ const student = {
 };
 
 console.log(student);
+
+console.log(student.name);
+
+function newstudent(name, age, city, adult) {
+  console.log(name, age, city, adult);
+}
+
+console.log(newstudent("faizan", 15, "Karachi", false));
